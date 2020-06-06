@@ -97,7 +97,7 @@ const CreatePoint = () => {
         });
     }
 
-    function handleSelectItem(id) {
+    function handleSelectItem(id: number) {
         const alreadySelected = selectedItems.findIndex(item => item === id);
 
         if (alreadySelected >= 0) {
